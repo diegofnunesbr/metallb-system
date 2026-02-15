@@ -23,6 +23,7 @@ kubectl apply -f applications/argocd-metallb-system.yaml
 ## Remover o MetalLB
 
 ```bash
+cd metallb-system
 kubectl delete -f applications/argocd-metallb-system.yaml
 kubectl delete namespace metallb-system
 ```
